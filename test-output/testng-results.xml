@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-19T11:03:30 IST" name="Acknowledgement Selection Test Suite" finished-at="2021-05-19T11:05:42 IST" duration-ms="132892">
+    <groups>
+    </groups>
+    <test started-at="2021-05-19T11:03:30 IST" name="Regression Suite" finished-at="2021-05-19T11:05:42 IST" duration-ms="132892">
+      <class name="TestCases.CreateIncident">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:03:30 IST" name="beforeClass" finished-at="2021-05-19T11:03:32 IST" duration-ms="1956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[src\main\resources\Drivers\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:03:32 IST" name="beforeMethod" finished-at="2021-05-19T11:03:32 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.CreateIncident.createIncident() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createIncident()[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:03:32 IST" name="createIncident" finished-at="2021-05-19T11:04:42 IST" duration-ms="69898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:04:42 IST" name="afterMethod" finished-at="2021-05-19T11:04:44 IST" duration-ms="2418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createIncident status=SUCCESS method=CreateIncident.createIncident()[pri:0, instance:TestCases.CreateIncident@2de56eb2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.CreateIncident.createIncident() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:04:44 IST" name="beforeMethod" finished-at="2021-05-19T11:04:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.CreateIncident.updateIncident() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateIncident()[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:04:44 IST" name="updateIncident" finished-at="2021-05-19T11:05:40 IST" duration-ms="55577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateIncident -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:05:40 IST" name="afterMethod" finished-at="2021-05-19T11:05:42 IST" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateIncident status=SUCCESS method=CreateIncident.updateIncident()[pri:0, instance:TestCases.CreateIncident@2de56eb2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.CreateIncident.updateIncident() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="terminateReport()[pri:0, instance:TestCases.CreateIncident@2de56eb2]" started-at="2021-05-19T11:05:42 IST" name="terminateReport" finished-at="2021-05-19T11:05:42 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateReport -->
+      </class> <!-- TestCases.CreateIncident -->
+    </test> <!-- Regression Suite -->
+  </suite> <!-- Acknowledgement Selection Test Suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Acknowledgement Selection Test Suite">
+    <listeners>
+
+        <listener class-name="Listneres.AnnotationTransformer"/>
+    </listeners>
+
+
+    <test name="Regression Suite">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="localDriverPath" value="src\main\resources\Drivers\chromedriver.exe"/>
+        <!--parameter name="profile" value="user-data-dir=C:\Users\Vinav.Mevada\AppData\Local\Google\Chrome\User Data\Profile 5"></parameter-->
+        <!--<parameter name="localDriverPath" value="E:\geckodriver.exe"/>-->
+
+        <!--Smart Green House URL--> 
+      
+
+        <classes>
+           
+            <class name="TestCases.CreateIncident"/>     
+                    
+            
+            
+
+        </classes>
+    </test>
+</suite>
